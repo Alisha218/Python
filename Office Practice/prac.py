@@ -3,8 +3,8 @@ from openpyxl import load_workbook
 from openpyxl.worksheet.table import Table, TableStyleInfo
 
 # Load the CSV file
-file_path = "orders_export_1.csv"  # Update with your actual CSV file path
-excel_file = "Order_Analysis.xlsx"  # Your existing Excel file
+file_path = "orders_export_1.csv"  
+excel_file = "Order_Analysis.xlsx"  
 
 # Read CSV into DataFrame
 df = pd.read_csv(file_path)
@@ -72,3 +72,4 @@ wb.save(excel_file)
 wb.close()
 
 print("Table formatting applied successfully!")
+
