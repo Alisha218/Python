@@ -11,7 +11,7 @@ driver.get("https://www.tiktok.com/")
 time.sleep(30)  # Adjust for manual login
 
 # Go to a specific user's profile
-driver.get("https://www.tiktok.com/@zaadi5656")  # Replace with target username
+driver.get("https://www.tiktok.com/@xyz")  # Replace with target username
 
 time.sleep(5)
 
@@ -29,3 +29,4 @@ comment_box.send_keys("Fraud User! Fraud video !" + Keys.RETURN)
 
 time.sleep(5)  # Allow time for comment to post
 driver.quit()
+
